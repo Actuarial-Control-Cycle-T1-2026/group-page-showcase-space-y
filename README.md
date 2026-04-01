@@ -468,4 +468,4 @@ All actuarial modelling, data analysis, and final interpretations were developed
 
 ---
 
-*University of New South Wales | Actuarial Theory and Practice A | 2026*
+University of New South Wales | Actuarial Theory and Practice A | 2026
