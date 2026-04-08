@@ -448,6 +448,7 @@ pv_losses <- sum(expected_losses_by_year * discount_factors)
 ## Report & Code
 
 - [Full Report (PDF)](SpaceY_report.pdf)
+- [Full Code (zip)](Whole%20modeling%20process.zip)
 - [Workers' Compensation Code](code/wc_model.R)
 - [Cargo Loss Code](code/cl_model.R)
 - [Equipment Failure Code](code/ef_model.R)
