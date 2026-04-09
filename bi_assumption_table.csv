@@ -1,0 +1,6 @@
+"solar_system_new","solar_system_proxy","weight","proxy_reason","total_exposure_assumed","equipment_total","production_load_assumed","energy_backup_score_assumed","exposure_mean","exposure_total","proxy_claim_rate","exposure_assumed","mu_hat_proxy"
+"Helionis Cluster","Helionis Cluster",1,"Direct historical system in model",9712.5093780628,2580,0.497422773283065,"5",0.499897543778002,9712.5093780628,0.193461846661792,9712.5093780628,2166.20477765155
+"Bayesia System","Zeta",0.7,"Radiation spikes + operational resilience, closest to Zeta",4856.2546890314,1290,0.501852979803724,"2",0.500495596398581,19492.8019929355,0.20135637767328,3399.37828232198,695.270433549501
+"Bayesia System","Epsilon",0.3,"Some additional harsh-radiation / temperature stress overlay",4856.2546890314,1290,0.497460065409687,"2",0.498229736760317,19386.6172870807,0.205399422758173,1456.87640670942,293.650692520976
+"Oryn Delta","Zeta",0.65,"Operational instability / navigation complexity closer to Zeta",3237.50312602093,860,0.501852979803724,"2",0.500495596398581,19492.8019929355,0.20135637767328,2104.37703191361,430.405506483024
+"Oryn Delta","Helionis Cluster",0.35,"Retains some communication / cluster-fragmentation similarity",3237.50312602093,860,0.497422773283065,"5",0.499897543778002,9712.5093780628,0.193461846661792,1133.12609410733,252.723890726014

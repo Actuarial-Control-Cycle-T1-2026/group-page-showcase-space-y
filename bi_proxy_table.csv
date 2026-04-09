@@ -1,0 +1,6 @@
+"solar_system_new","solar_system_proxy","weight","proxy_reason"
+"Helionis Cluster","Helionis Cluster",1,"Direct historical system in model"
+"Bayesia System","Zeta",0.7,"Radiation spikes + operational resilience, closest to Zeta"
+"Bayesia System","Epsilon",0.3,"Some additional harsh-radiation / temperature stress overlay"
+"Oryn Delta","Zeta",0.65,"Operational instability / navigation complexity closer to Zeta"
+"Oryn Delta","Helionis Cluster",0.35,"Retains some communication / cluster-fragmentation similarity"

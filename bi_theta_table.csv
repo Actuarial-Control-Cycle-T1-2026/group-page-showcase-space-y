@@ -1,0 +1,4 @@
+"theta_scenario","theta_used","note"
+"theta_1",1,"Moderated dispersion scenario"
+"theta_5",5,"Milder dispersion scenario"
+"theta_fitted",0.112193731328723,"Record-level fitted NB theta"
