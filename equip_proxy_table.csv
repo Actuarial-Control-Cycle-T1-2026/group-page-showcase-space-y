@@ -1,0 +1,19 @@
+"EquipmentType","SolarSystem","Count","OpRatio","active_units"
+"Flux Riders","Bayesia System",750,0.8,600
+"Quantum Bores","Bayesia System",150,0.8,120
+"ReglAggregators","Bayesia System",150,0.75,112.5
+"Graviton Extractors","Bayesia System",120,0.8,96
+"Fexstram Carriers","Bayesia System",75,0.75,56.25
+"Ion Pulverizers","Bayesia System",45,0.6,27
+"Flux Riders","Helionis Cluster",1500,0.8,1200
+"Quantum Bores","Helionis Cluster",300,0.95,285
+"ReglAggregators","Helionis Cluster",300,0.8,240
+"Graviton Extractors","Helionis Cluster",240,0.95,228
+"Fexstram Carriers","Helionis Cluster",150,0.9,135
+"Ion Pulverizers","Helionis Cluster",90,0.5,45
+"Flux Riders","Oryn Delta",500,0.75,375
+"Quantum Bores","Oryn Delta",100,0.75,75
+"ReglAggregators","Oryn Delta",100,0.7,70
+"Graviton Extractors","Oryn Delta",80,0.75,60
+"Fexstram Carriers","Oryn Delta",50,0.7,35
+"Ion Pulverizers","Oryn Delta",30,0.5,15
