@@ -1,0 +1,19 @@
+"solar_system_original","equipment_type","expected_claim_count","machine_count","exposure","expected_claim_per_machine","expected_claim_per_exposure"
+"Bayesian System","FexStram Carrier",13.73,75,56.25,0.18,0.24
+"Bayesian System","Flux Rider",126.28,750,600,0.17,0.21
+"Bayesian System","Graviton Extractor",19.62,120,96,0.16,0.2
+"Bayesian System","Ion Pulverizer",4.75,45,27,0.11,0.18
+"Bayesian System","Quantum Bore",19.15,150,120,0.13,0.16
+"Bayesian System","ReglAggregators",17.2,150,112.5,0.11,0.15
+"Helionis Cluster","FexStram Carrier",37.19,150,135,0.25,0.28
+"Helionis Cluster","Flux Rider",389.01,1500,1200,0.26,0.32
+"Helionis Cluster","Graviton Extractor",48.7,240,228,0.2,0.21
+"Helionis Cluster","Ion Pulverizer",9.83,90,45,0.11,0.22
+"Helionis Cluster","Quantum Bore",50.58,300,285,0.17,0.18
+"Helionis Cluster","ReglAggregators",45.65,300,240,0.15,0.19
+"Oryn Delta","FexStram Carrier",7.24,50,35,0.14,0.21
+"Oryn Delta","Flux Rider",50.55,500,375,0.1,0.13
+"Oryn Delta","Graviton Extractor",12.18,80,60,0.15,0.2
+"Oryn Delta","Ion Pulverizer",2.27,30,15,0.08,0.15
+"Oryn Delta","Quantum Bore",11.22,100,75,0.11,0.15
+"Oryn Delta","ReglAggregators",9.69,100,70,0.1,0.14

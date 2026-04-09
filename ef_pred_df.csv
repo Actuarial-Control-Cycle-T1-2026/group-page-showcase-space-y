@@ -1,0 +1,19 @@
+"solar_system_original","solar_system_model","equipment_type","machine_count","avg_exposure_ratio_per_machine","exposure","equipment_age","maintenance_int","usage_int","eq_multiplier","lambda_glm","lambda_adj"
+"Helionis Cluster","Helionis Cluster","Quantum Bore",300,0.95,285,11.3,750,12.0379,1,50.583,50.583
+"Helionis Cluster","Helionis Cluster","Graviton Extractor",240,0.95,228,11.3,750,11.9037,1,48.697,48.697
+"Helionis Cluster","Helionis Cluster","FexStram Carrier",150,0.9,135,11.3167,375,12.0098,1,37.1919,37.1919
+"Helionis Cluster","Helionis Cluster","ReglAggregators",300,0.8,240,11.3,1500,11.9855,1,45.6544,45.6544
+"Helionis Cluster","Helionis Cluster","Flux Rider",1500,0.8,1200,11.3,1500,12.1087,1,389.011,389.011
+"Helionis Cluster","Helionis Cluster","Ion Pulverizer",90,0.5,45,11.3278,1000,12.0319,1,9.8274,9.8274
+"Bayesian System","Helionis Cluster","Quantum Bore",150,0.8,120,8.15,600,12.0379,1.1159,17.1642,19.1542
+"Bayesian System","Helionis Cluster","Graviton Extractor",120,0.8,96,8.15,600,11.9037,1.1875,16.5242,19.6225
+"Bayesian System","Helionis Cluster","FexStram Carrier",75,0.75,56.25,8.0867,400,12.0098,1.0597,12.9587,13.7324
+"Bayesian System","Helionis Cluster","ReglAggregators",150,0.75,112.5,8.15,1000,11.9855,1.0833,15.8725,17.1952
+"Bayesian System","Helionis Cluster","Flux Rider",750,0.8,600,8.1567,1000,12.1087,0.875,144.3173,126.2776
+"Bayesian System","Helionis Cluster","Ion Pulverizer",45,0.6,27,8.0444,750,12.0319,1.0312,4.6053,4.7492
+"Oryn Delta","Helionis Cluster","Quantum Bore",100,0.75,75,4.125,500,12.0379,1.3478,8.3214,11.2158
+"Oryn Delta","Helionis Cluster","Graviton Extractor",80,0.75,60,4.125,500,11.9037,1.5208,8.0111,12.1836
+"Oryn Delta","Helionis Cluster","FexStram Carrier",50,0.7,35,4.17,250,12.0098,1.1642,6.2193,7.2404
+"Oryn Delta","Helionis Cluster","ReglAggregators",100,0.7,70,4.125,300,11.9855,1.4583,6.6445,9.6899
+"Oryn Delta","Helionis Cluster","Flux Rider",500,0.75,375,4.125,300,12.1087,0.8333,60.6607,50.5506
+"Oryn Delta","Helionis Cluster","Ion Pulverizer",30,0.5,15,4.2,500,12.0319,1.1719,1.9351,2.2677

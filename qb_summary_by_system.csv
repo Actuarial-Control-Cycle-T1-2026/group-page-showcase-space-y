@@ -1,0 +1,4 @@
+"solar_system_original","equipment_type","mean_loss","sd_loss","p95_loss","p99_loss","tvar95","mean_N","p95_N","machine_count","exposure","mean_loss_per_machine","mean_loss_per_exposure"
+"Bayesian System","Quantum Bore",2543938.58,934423.05,4142311.53,6388371.7,5441323.2,19.17,27,150,120,16959.59,21199.49
+"Helionis Cluster","Quantum Bore",6708569.75,1524849.63,9646025.24,11754809.78,11046089.85,50.49,62,300,285,22361.9,23538.84
+"Oryn Delta","Quantum Bore",1486968.79,704906.52,2515917.21,4619950.62,3614624.54,11.2,17,100,75,14869.69,19826.25
