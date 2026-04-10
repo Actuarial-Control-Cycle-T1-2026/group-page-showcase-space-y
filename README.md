@@ -480,16 +480,30 @@ pv_losses <- sum(expected_losses_by_year * discount_factors)
 
 ---
 
-## Report & Code
+## Report
 
 - [Full Report (PDF)](SpaceY_report.pdf)
-- [Full Code (zip)](Whole%20modeling%20process.zip)
-- [Workers' Compensation Code](code/wc_model.R)
-- [Cargo Loss Code](code/cl_model.R)
-- [Equipment Failure Code](code/ef_model.R)
-- [Business Interruption Code](code/bi_model.R)
-- [Pricing & Simulation Code](code/pricing_simulation.R)
-- [Macroeconomic Forecasting Code](code/macro_forecast.R)
+
+## Code
+**Workers' Compensation**
+- [WC Frequency Model](code/Works%20compensation%20freq.R)
+- [WC Severity Model](code/Works%20compensation%20sev.R)
+- [WC Transfer (Historical to New)](code/WC_new_old.R)
+
+**Cargo Loss**
+- [Cargo Loss Frequency Model](code/Cargo%20losses%20freq.R)
+- [Cargo Loss Severity Model](code/Cargo%20losses%20sev.R)
+- [Cargo Loss Transfer (Historical to New)](code/CL_new_old.R)
+
+**Equipment Failure**
+- [Equipment Failure Frequency Model](code/Equipment%20failure%20freq.R)
+- [Equipment Failure Severity Model](code/Equipment%20failure%20sev.R)
+- [Equipment Failure Transfer (Historical to New)](code/EF_new_old11.R)
+
+**Business Interruption**
+- [Business Interruption Frequency Model](code/Business%20interruption%20freq.R)
+- [Business Interruption Severity Model](code/Business%20interruption%20sev.R)
+- [Business Interruption Transfer (Historical to New)](code/bi_new_old.R)
 
 ---
 
