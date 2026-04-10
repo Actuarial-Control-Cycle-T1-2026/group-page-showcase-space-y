@@ -13,7 +13,8 @@
 5. [ESG Evaluation](#esg-evaluation)
 6. [Modelling Methodology](#modelling-methodology)
 7. [Data & Assumptions](#data--assumptions)
-8. [Team Contributions](#team-contributions)
+
+Our full report can also be found here: [Full Report (PDF)](SpaceY_report.pdf)
 
 ---
 
@@ -468,18 +469,6 @@ pv_losses <- sum(expected_losses_by_year * discount_factors)
 
 ---
 
-## Team Contributions
-
-| Member | Primary Responsibilities |
-|---|---|
-| **Xinran Dai** | Cargo Loss modelling (frequency GLM, severity fitting, transfer methodology) |
-| **Yu Gao** | Business Interruption modelling, macroeconomic forecasting (VAR(1), yield curve) |
-| **Thomas Ko** | Equipment Failure modelling, Quantum Bore sublimit calibration, stress testing |
-| **Rose Parajuli** | Workers' Compensation modelling, ESG scoring framework, risk assessment |
-| **Yuan Zhang** | Pricing framework, long-term PV analysis, financial performance projection |
-
----
-
 ## Report
 
 - [Full Report (PDF)](SpaceY_report.pdf)
@@ -504,17 +493,6 @@ pv_losses <- sum(expected_losses_by_year * discount_factors)
 - [Business Interruption Frequency Model](code/Business%20interruption%20freq.R)
 - [Business Interruption Severity Model](code/Business%20interruption%20sev.R)
 - [Business Interruption Transfer (Historical to New)](code/bi_new_old.R)
-
----
-
-## Disclaimer: AI Usage
-
-AI tools were used in a limited supporting capacity:
-- Language refinement and improvement of writing clarity
-- Minor code editing and formatting adjustments
-- Generation of preliminary brainstorming ideas during early project stages
-
-All actuarial modelling, data analysis, and final interpretations were developed and verified by the authors. The authors retain full responsibility for the methodology and conclusions presented.
 
 ---
 
