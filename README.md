@@ -210,7 +210,7 @@ log(E[N_i | X_i]) = log(E_i) + eta_i
 
 Model family selection is based on empirical variance-to-mean ratio, Pearson dispersion diagnostics, likelihood-based comparisons, and out-of-sample validation.
 
-### Workers' Compensation Frequency
+### Workers' Compensation
 
 ```r
 # Poisson GLM for WC claim counts
@@ -228,7 +228,18 @@ wc_model <- glm(
 
 Near-equidispersion after conditioning supports Poisson. Psychological stress and safety training improved out-of-sample performance over the parsimonious benchmark.
 
-### Cargo Loss Frequency
+**Simulated aggregate WC loss distributions by solar system:**
+
+![WC Total Loss Distribution](images/fig_wc_total_loss.png)
+
+![WC Loss by Solar System](images/fig_wc_loss_by_system.png)
+
+![WC Loss by Occupation Bucket](images/fig_wc_loss_by_bucket.png)
+
+![WC Loss by Bucket and System](images/fig_wc_loss_by_bucket_system.png)
+
+
+### Cargo Loss
 
 ```r
 # Quasi-Poisson GLM for Cargo Loss (overdispersion adjustment)
@@ -248,20 +259,17 @@ cl_model <- glm(
 # Negative Binomial considered but overstated dispersion out-of-sample
 ```
 
-### Business Interruption Frequency
+**Simulated aggregate Cargo Loss distributions by solar system:**
 
-```r
-# Negative Binomial GLM - overdispersion confirmed via Pearson stat >> 1
-bi_model <- glm.nb(
-  claim_count ~ offset(log(exposure))
-    + solar_system
-    + production_load
-    + energy_backup_score,
-  data = bi_data
-)
-```
+![Cargo Total Loss Distribution](images/fig_cargo_total_loss.png)
 
-### Equipment Failure Frequency
+![Cargo Loss by Solar System](images/fig_cargo_loss_by_system.png)
+
+![Cargo Loss by Container Type](images/fig_cargo_loss_by_container.png)
+
+![Cargo Loss by Solar System and Container](images/fig_cargo_loss_by_solar_system_container.png)
+
+### Equipment Failure
 
 ```r
 # Poisson GLM - near-equidispersed before and after conditioning
@@ -276,6 +284,33 @@ ef_model <- glm(
   data = ef_data
 )
 ```
+
+**Simulated aggregate Equipment Failure distributions by solar system:**
+
+![EF Total Loss Distribution](images/fig_ef_total_loss.png)
+
+![EF Loss by Solar System](images/fig_ef_loss_by_system.png)
+
+![EF Loss by Equipment Type](images/fig_ef_loss_by_equipment.png)
+
+![EF Loss by Solar System and Equipment](images/fig_ef_loss_by_solar_system_equipment.png)
+
+![EF Loss by Solar System and Equipment (Log Scale)](images/fig_ef_loss_by_solar_system_equipment_log.png)
+
+
+### Business Interruption
+
+```r
+# Negative Binomial GLM - overdispersion confirmed via Pearson stat >> 1
+bi_model <- glm.nb(
+  claim_count ~ offset(log(exposure))
+    + solar_system
+    + production_load
+    + energy_backup_score,
+  data = bi_data
+)
+```
+
 
 ### Spliced Severity Model (WC Example)
 
